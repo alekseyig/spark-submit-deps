@@ -1,8 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
-/venv/
+venv/
 *.egg-info/
-/dist/
-/.idea/
+dist/
+.idea/
 *.iml
 build/
 spark_dist/

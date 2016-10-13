@@ -86,9 +86,14 @@ setup(
     description='an example project that shows how to build spark_submit deps',
 
     classifiers=[
-        'development status :: 4 - beta',
-        'programming language :: python :: 2.7',
+        'Development Status :: 4 - Beta',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 2.7',
     ],
+
+    author='Aleksey Zhukov',
+
+    author_email='alekseyig@hotmail.com',
 
     packages=find_packages(include=['test_spark_submit', 'test_spark_submit.*'],
                            exclude=['*.test.*', '*.test']),
