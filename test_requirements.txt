@@ -1,0 +1,4 @@
+nose
+py4j
+findspark
+testtools
