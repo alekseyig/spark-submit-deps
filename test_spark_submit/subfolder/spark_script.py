@@ -1,6 +1,6 @@
 import sys
 from pyspark import SparkContext, SQLContext
-import pulp  # this import is just to check that deps where distributed correctly
+import pulp  # this import is just to check that deps were distributed correctly
 
 
 def process(sc, args):
